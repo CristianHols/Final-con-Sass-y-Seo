@@ -1,0 +1,197 @@
+
+        .titulo{
+            font-family: $fuenteppal;
+            color: $colortxt;
+            text-align: center;
+            font-size: 5rem;
+            margin-top: 8rem;}
+
+            .subtitulo{
+                font-family: $fuenteppal;
+                color: $colortxthov;
+                text-align: center;
+                font-size: $fuente3rem;
+                margin-top: 8rem;
+                margin-bottom: 8rem;
+            }
+            .subtitulo2{
+                font-family: $fuenteppal;
+                color: $colortxthov;
+                text-align: right;
+                font-size: $fuente3rem;
+                margin-bottom: 5rem;
+                margin-right: 45rem;
+                    }
+
+            .subtitulo3{
+                color: $colortxt;
+                text-align: center;
+                font-size: 2.5rem;
+                margin-top: 8rem;
+                margin-bottom: 3rem;
+                }
+
+.tarjetas {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        cursor: pointer;
+    }
+
+    
+div{
+    .card-body{
+    background-color: $colorfondosdiv;
+    padding: $fuente2rem;
+}
+    .card-text{
+    font-family: $fuenteppal;
+    color: $colortxt;
+    font-size: 1.4rem;
+    text-align: center;
+}
+    .card-title{
+    font-family: $fuenteppal;
+    color: $colortxthov;
+    font-size: 1.7rem;
+    text-align: left;
+}
+}
+.sub{
+    font-family: $fuenteppal;
+    color: #f00d0d;
+    text-align: left;
+    font-size: 2rem;
+}
+
+.intro{
+    display: grid;
+    grid-template: repeat(3 800px);
+    justify-content: space-around;
+    align-content: center;
+}
+.text{
+    margin: 6rem 4rem 3rem 1rem;
+    font-size: $fuente3rem;
+    font-family: $fuenteppal;
+    color: $colortxt;
+}
+.introtxt{
+    display: grid;
+    grid-template: repeat(3 800px);
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
+div{
+        .card-header{
+        background-color: $colorfondosdiv;
+        font-family: $fuenteppal;
+        color: $colortxt;
+        text-align: right;
+        padding: 1rem;
+        font-size: 1.3rem;}
+
+        .card-footer{
+            background-color: $colorfondosdiv;
+            font-family: $fuenteppal;
+            color: $colortxt;
+            text-align: center;
+            padding: $fuente2rem;
+            font-size:1.5rem;
+    }
+}
+
+.card-text1{
+    font-family: $fuenteppal;
+    color: $colortxt;
+    font-size: 1.4rem;
+    text-align: justify;
+    margin: $fuente2rem;
+}
+.infoxtra{
+    margin-right: 5rem;
+}
+.pie{
+    font-family: $fuenteppal;
+    color: rgb(145, 141, 141);
+    font-size: $fuente2rem;
+    text-align: center;
+    margin-top: 8rem;
+    margin-bottom: 3rem;
+}
+.infogame{
+    display: grid;
+    grid-template: repeat(3 800px);
+    justify-content: center;
+    align-items: center;
+    margin-left: 12rem;
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+}
+.infogame1{
+    margin-left: 12rem;
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+} 
+.ctext{
+    font-family: $fuenteppal;
+    color: $colortxt;
+    font-size: 1.1rem;
+    text-align: justify;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+.image{
+    width: 400px;
+    height: 100%;
+    padding: 1rem;
+}
+.image1{
+    margin-left: 1rem;
+    width: 900px;
+    height: 100%;
+    padding: 1rem;
+    
+}
+.down1{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    cursor: pointer;
+}
+.img-fluid:hover{
+    font-size: 2rem;
+    transform:scale(1.1);
+}
+.formulario{
+    margin-left: 35rem;
+    margin-right: 35rem;
+    margin-top: 6rem;
+    margin-bottom: 10rem;
+}
+.botonenv{
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-left: 44rem;
+    background-color: $colortxthov;
+    color: $colortxt;
+    font-family: $fuenteppal;
+}
+.botonenv:hover{
+    transform: scale(1.5);
+}
+label{
+    font-family: $fuenteppal;
+    color: $colortxt;
+    font-size: $fuente2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.you{
+    width: 120px;
+    height: 100%;
+}
+.you:hover{
+    transform:scale(1.2);
+}

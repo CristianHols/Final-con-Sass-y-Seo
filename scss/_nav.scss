@@ -1,0 +1,39 @@
+nav{
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index: 1000;
+
+    .nav-link{
+        color:$colortxt;
+        font-size: 1.5rem;
+    }
+    .nav-link:hover{
+        color: $colortxthov;
+        font-size: $fuente2rem;
+        transform: scale3d(1.1);
+    }
+    
+    .logo{
+        width: 150px;
+        height: 100%; 
+    }
+    
+    .logo:hover{
+        transform: scale(1.1);
+    }
+    .atr{
+        margin-top: 5rem;
+        width: 100px;
+        height: 100%; 
+    }
+    .navegador{
+        font-family: $fuenteppal;
+        background-color: $colorfondosdiv;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        align-content: space-around;
+    }
+}

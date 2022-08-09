@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none; }
+  * body {
+    background-color: black; }
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; }
+  nav .nav-link {
+    color: white;
+    font-size: 1.5rem; }
+  nav .nav-link:hover {
+    color: red;
+    font-size: 2rem;
+    transform: scale3d(1.1); }
+  nav .logo {
+    width: 150px;
+    height: 100%; }
+  nav .logo:hover {
+    transform: scale(1.1); }
+  nav .atr {
+    margin-top: 5rem;
+    width: 100px;
+    height: 100%; }
+  nav .navegador {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    background-color: #601aa1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-content: space-around; }
+
+.titulo {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 5rem;
+  margin-top: 8rem; }
+
+.subtitulo {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: red;
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 8rem;
+  margin-bottom: 8rem; }
+
+.subtitulo2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: red;
+  text-align: right;
+  font-size: 3rem;
+  margin-bottom: 5rem;
+  margin-right: 45rem; }
+
+.subtitulo3 {
+  color: white;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 8rem;
+  margin-bottom: 3rem; }
+
+.tarjetas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  cursor: pointer; }
+
+div .card-body {
+  background-color: #601aa1;
+  padding: 2rem; }
+
+div .card-text {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  font-size: 1.4rem;
+  text-align: center; }
+
+div .card-title {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: red;
+  font-size: 1.7rem;
+  text-align: left; }
+
+.sub {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #f00d0d;
+  text-align: left;
+  font-size: 2rem; }
+
+.intro {
+  display: grid;
+  grid-template: repeat(3 800px);
+  justify-content: space-around;
+  align-content: center; }
+
+.text {
+  margin: 6rem 4rem 3rem 1rem;
+  font-size: 3rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white; }
+
+.introtxt {
+  display: grid;
+  grid-template: repeat(3 800px);
+  justify-content: center;
+  align-items: center;
+  margin-top: 8rem;
+  margin-bottom: 8rem; }
+
+div .card-header {
+  background-color: #601aa1;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  text-align: right;
+  padding: 1rem;
+  font-size: 1.3rem; }
+
+div .card-footer {
+  background-color: #601aa1;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.5rem; }
+
+.card-text1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  font-size: 1.4rem;
+  text-align: justify;
+  margin: 2rem; }
+
+.infoxtra {
+  margin-right: 5rem; }
+
+.pie {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #918d8d;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 8rem;
+  margin-bottom: 3rem; }
+
+.infogame {
+  display: grid;
+  grid-template: repeat(3 800px);
+  justify-content: center;
+  align-items: center;
+  margin-left: 12rem;
+  margin-top: 6rem;
+  margin-bottom: 4rem; }
+
+.infogame1 {
+  margin-left: 12rem;
+  margin-top: 6rem;
+  margin-bottom: 4rem; }
+
+.ctext {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  font-size: 1.1rem;
+  text-align: justify;
+  margin-bottom: 1rem;
+  margin-right: 1rem; }
+
+.image {
+  width: 400px;
+  height: 100%;
+  padding: 1rem; }
+
+.image1 {
+  margin-left: 1rem;
+  width: 900px;
+  height: 100%;
+  padding: 1rem; }
+
+.down1 {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  cursor: pointer; }
+
+.img-fluid:hover {
+  font-size: 2rem;
+  transform: scale(1.1); }
+
+.formulario {
+  margin-left: 35rem;
+  margin-right: 35rem;
+  margin-top: 6rem;
+  margin-bottom: 10rem; }
+
+.botonenv {
+  padding: 1rem;
+  margin-top: 2rem;
+  margin-left: 44rem;
+  background-color: red;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
+
+.botonenv:hover {
+  transform: scale(1.5); }
+
+label {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem; }
+
+.you {
+  width: 120px;
+  height: 100%; }
+
+.you:hover {
+  transform: scale(1.2); }
