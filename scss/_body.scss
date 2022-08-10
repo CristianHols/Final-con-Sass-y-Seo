@@ -4,15 +4,15 @@
             color: $colortxt;
             text-align: center;
             font-size: 5rem;
-            margin-top: 8rem;}
+            margin-top: $margensuperior;}
 
             .subtitulo{
                 font-family: $fuenteppal;
                 color: $colortxthov;
                 text-align: center;
                 font-size: $fuente3rem;
-                margin-top: 8rem;
-                margin-bottom: 8rem;
+                margin-top: $margensuperior;
+                margin-bottom: 1rem;
             }
             .subtitulo2{
                 font-family: $fuenteppal;
@@ -27,7 +27,7 @@
                 color: $colortxt;
                 text-align: center;
                 font-size: 2.5rem;
-                margin-top: 8rem;
+                margin-top: $margensuperior;
                 margin-bottom: 3rem;
                 }
 
@@ -43,32 +43,29 @@ div{
     .card-body{
     background-color: $colorfondosdiv;
     padding: $fuente2rem;
-}
+    }
     .card-text{
-    font-family: $fuenteppal;
-    color: $colortxt;
-    font-size: 1.4rem;
-    text-align: center;
+        font-family: $fuenteppal;
+        color: $colortxt;
+        font-size: 1.4rem;
+        text-align: center;
+    }
+        .card-title{
+        font-family: $fuenteppal;
+        color: $colortxthov;
+        font-size: 1.7rem;
+        text-align: left;
+    }
+    }
+    .card:hover{
+    transform: scale(1.1);
 }
-    .card-title{
-    font-family: $fuenteppal;
-    color: $colortxthov;
-    font-size: 1.7rem;
-    text-align: left;
-}
-}
+
 .sub{
     font-family: $fuenteppal;
     color: #f00d0d;
     text-align: left;
     font-size: 2rem;
-}
-
-.intro{
-    display: grid;
-    grid-template: repeat(3 800px);
-    justify-content: space-around;
-    align-content: center;
 }
 .text{
     margin: 6rem 4rem 3rem 1rem;
@@ -81,8 +78,8 @@ div{
     grid-template: repeat(3 800px);
     justify-content: center;
     align-items: center;
-    margin-top: 8rem;
-    margin-bottom: 8rem;
+    margin-top: $margensuperior;
+    margin-bottom: $margensuperior;
 }
 div{
         .card-header{
@@ -118,21 +115,22 @@ div{
     color: rgb(145, 141, 141);
     font-size: $fuente2rem;
     text-align: center;
-    margin-top: 8rem;
+    margin-top: $margensuperior;
     margin-bottom: 3rem;
 }
+
 .infogame{
     display: grid;
     grid-template: repeat(3 800px);
     justify-content: center;
     align-items: center;
     margin-left: 12rem;
-    margin-top: 6rem;
+    margin-top: $margensuperior;
     margin-bottom: 4rem;
 }
 .infogame1{
     margin-left: 12rem;
-    margin-top: 6rem;
+    margin-top: $margensuperior;
     margin-bottom: 4rem;
 } 
 .ctext{
@@ -167,8 +165,8 @@ div{
 .formulario{
     margin-left: 35rem;
     margin-right: 35rem;
-    margin-top: 6rem;
-    margin-bottom: 10rem;
+    margin-top: $margensuperior;
+    margin-bottom: $margensuperior;
 }
 .botonenv{
     padding: 1rem;

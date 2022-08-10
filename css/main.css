@@ -23,12 +23,8 @@ nav {
   nav .logo {
     width: 150px;
     height: 100%; }
-  nav .logo:hover {
-    transform: scale(1.1); }
-  nav .atr {
-    margin-top: 5rem;
-    width: 100px;
-    height: 100%; }
+    nav .logo .logo:hover {
+      transform: scale(1.1); }
   nav .navegador {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     background-color: #601aa1;
@@ -37,6 +33,9 @@ nav {
     align-items: center;
     justify-content: space-between;
     align-content: space-around; }
+
+header {
+  background-color: black; }
 
 .titulo {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -51,7 +50,7 @@ nav {
   text-align: center;
   font-size: 3rem;
   margin-top: 8rem;
-  margin-bottom: 8rem; }
+  margin-bottom: 1rem; }
 
 .subtitulo2 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -90,17 +89,14 @@ div .card-title {
   font-size: 1.7rem;
   text-align: left; }
 
+.card:hover {
+  transform: scale(1.1); }
+
 .sub {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: #f00d0d;
   text-align: left;
   font-size: 2rem; }
-
-.intro {
-  display: grid;
-  grid-template: repeat(3 800px);
-  justify-content: space-around;
-  align-content: center; }
 
 .text {
   margin: 6rem 4rem 3rem 1rem;
@@ -156,12 +152,12 @@ div .card-footer {
   justify-content: center;
   align-items: center;
   margin-left: 12rem;
-  margin-top: 6rem;
+  margin-top: 8rem;
   margin-bottom: 4rem; }
 
 .infogame1 {
   margin-left: 12rem;
-  margin-top: 6rem;
+  margin-top: 8rem;
   margin-bottom: 4rem; }
 
 .ctext {
@@ -195,8 +191,8 @@ div .card-footer {
 .formulario {
   margin-left: 35rem;
   margin-right: 35rem;
-  margin-top: 6rem;
-  margin-bottom: 10rem; }
+  margin-top: 8rem;
+  margin-bottom: 8rem; }
 
 .botonenv {
   padding: 1rem;
@@ -222,3 +218,6 @@ label {
 
 .you:hover {
   transform: scale(1.2); }
+
+footer {
+  background-color: black; }
