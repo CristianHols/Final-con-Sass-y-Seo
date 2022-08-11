@@ -1,34 +1,29 @@
 
         .titulo{
-            font-family: $fuenteppal;
-            color: $colortxt;
+            @extend .tit;
             text-align: center;
-            font-size: 5rem;
-            margin-top: $margensuperior;}
+            @include size (5rem, 8rem, 3rem ); //Mixin
+        }
 
             .subtitulo{
                 font-family: $fuenteppal;
                 color: $colortxthov;
                 text-align: center;
-                font-size: $fuente3rem;
-                margin-top: $margensuperior;
-                margin-bottom: 1rem;
-            }
+                @include size (3rem, 8rem, 5rem);
+                        
+        }
             .subtitulo2{
                 font-family: $fuenteppal;
                 color: $colortxthov;
                 text-align: right;
-                font-size: $fuente3rem;
-                margin-bottom: 5rem;
+                @include size (3rem, 0.6rem, 4rem);
                 margin-right: 45rem;
                     }
 
             .subtitulo3{
                 color: $colortxt;
                 text-align: center;
-                font-size: 2.5rem;
-                margin-top: $margensuperior;
-                margin-bottom: 3rem;
+                @include size (2.5rem, 8rem, 3rem);
                 }
 
 .tarjetas {
@@ -45,8 +40,7 @@ div{
     padding: $fuente2rem;
     }
     .card-text{
-        font-family: $fuenteppal;
-        color: $colortxt;
+        @extend .tit;
         font-size: 1.4rem;
         text-align: center;
     }
@@ -141,6 +135,12 @@ div{
     margin-bottom: 1rem;
     margin-right: 1rem;
 }
+.pieimg{
+    @extend .texts;
+    margin-left: 2.2rem;
+    margin-top: 28rem;
+    position:absolute;
+}
 .image{
     width: 400px;
     height: 100%;
@@ -187,7 +187,8 @@ label{
     margin-bottom: 1rem;
 }
 .you{
-    width: 120px;
+    
+    width: 100px;
     height: 100%;
 }
 .you:hover{

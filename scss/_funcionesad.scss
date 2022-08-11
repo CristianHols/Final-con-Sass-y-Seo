@@ -1,0 +1,30 @@
+//Mixin
+@mixin size ($sizefont, $topfont, $botfont) { //estas var no estan declaradas son especificas de esto
+    font-size: $sizefont;
+    margin-top: $topfont;
+    margin-bottom: $botfont;
+}
+
+//Maps
+$redes: (
+        youtube: #ff000027, //key:valor
+        instagram: #ff6b3125,
+        twitch: #a200ff27,
+        twitter: #0059ff23,
+);
+
+    //Esto es lo que va a recorrer
+
+@each $red, $color in $redes {
+    
+    //Lo que quiero que me devuelva
+    .red-#{$red} {
+        background-color: $color;
+    }
+};
+
+//Extend
+.tit{
+    font-family: $fuenteppal;
+    color: $colortxt;
+}

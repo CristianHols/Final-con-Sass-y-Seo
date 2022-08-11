@@ -8,6 +8,23 @@
   * body {
     background-color: black; }
 
+.red-youtube {
+  background-color: #ff000027; }
+
+.red-instagram {
+  background-color: #ff6b3125; }
+
+.red-twitch {
+  background-color: #a200ff27; }
+
+.red-twitter {
+  background-color: #0059ff23; }
+
+.texts, .pieimg {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 2rem;
+  color: #2b00ff; }
+
 nav {
   position: fixed;
   top: 0;
@@ -42,7 +59,8 @@ header {
   color: white;
   text-align: center;
   font-size: 5rem;
-  margin-top: 8rem; }
+  margin-top: 8rem;
+  margin-bottom: 3rem; }
 
 .subtitulo {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -50,14 +68,15 @@ header {
   text-align: center;
   font-size: 3rem;
   margin-top: 8rem;
-  margin-bottom: 1rem; }
+  margin-bottom: 5rem; }
 
 .subtitulo2 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: red;
   text-align: right;
   font-size: 3rem;
-  margin-bottom: 5rem;
+  margin-top: 0.6rem;
+  margin-bottom: 4rem;
   margin-right: 45rem; }
 
 .subtitulo3 {
@@ -168,6 +187,11 @@ div .card-footer {
   margin-bottom: 1rem;
   margin-right: 1rem; }
 
+.pieimg {
+  margin-left: 2.2rem;
+  margin-top: 28rem;
+  position: absolute; }
+
 .image {
   width: 400px;
   height: 100%;
@@ -213,7 +237,7 @@ label {
   margin-bottom: 1rem; }
 
 .you {
-  width: 120px;
+  width: 100px;
   height: 100%; }
 
 .you:hover {
