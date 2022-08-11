@@ -20,10 +20,9 @@
 .red-twitter {
   background-color: #0059ff23; }
 
-.texts, .pieimg {
+.tit, .titulo, div .card-text {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 2rem;
-  color: #2b00ff; }
+  color: white; }
 
 nav {
   position: fixed;
@@ -55,8 +54,6 @@ header {
   background-color: black; }
 
 .titulo {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  color: white;
   text-align: center;
   font-size: 5rem;
   margin-top: 8rem;
@@ -97,8 +94,6 @@ div .card-body {
   padding: 2rem; }
 
 div .card-text {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  color: white;
   font-size: 1.4rem;
   text-align: center; }
 
@@ -186,11 +181,6 @@ div .card-footer {
   text-align: justify;
   margin-bottom: 1rem;
   margin-right: 1rem; }
-
-.pieimg {
-  margin-left: 2.2rem;
-  margin-top: 28rem;
-  position: absolute; }
 
 .image {
   width: 400px;
