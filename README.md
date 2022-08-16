@@ -8,6 +8,8 @@ Cambios a realizados
 -Se crea un scss llamado _funcionesad para probar funciones extend, mixin, maps
 -Se usa funcion funcion mixin desde scss _funcionesad para poner fondo de colores a los links de enlaces de contacto en  html contacto
 -Se usa funcion extend desde scss _funcionesad para poner como fuente y color de texto en titulos h1 principalmente
--
+-Se agregan efectos a titulos y subtitulos.
+-Se se crea scss _efectos y se @import al main para su funcionalidad
+-Se agregan breves descripciones a todos los html.
 
 
