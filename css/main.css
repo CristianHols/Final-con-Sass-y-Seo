@@ -57,7 +57,7 @@ header {
   text-align: center;
   font-size: 5rem;
   margin-top: 8rem;
-  margin-bottom: 3rem; }
+  margin-bottom: 0.5rem; }
 
 .subtitulo {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -70,15 +70,16 @@ header {
 .subtitulo2 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: red;
-  text-align: right;
+  text-align: center;
   font-size: 3rem;
-  margin-top: 0.6rem;
+  margin-top: 0.3rem;
   margin-bottom: 4rem;
-  margin-right: 45rem; }
+  margin-left: 45rem; }
 
 .subtitulo3 {
   color: white;
   text-align: center;
+  font-weight: bolder;
   font-size: 2.5rem;
   margin-top: 8rem;
   margin-bottom: 3rem; }
@@ -87,7 +88,8 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  cursor: pointer; }
+  cursor: pointer;
+  margin-top: 8rem; }
 
 div .card-body {
   background-color: #601aa1;
@@ -235,3 +237,43 @@ label {
 
 footer {
   background-color: black; }
+
+h1 {
+  color: rgba(0, 0, 0, 0.9);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  height: 140px;
+  left: 0;
+  letter-spacing: 4px;
+  margin: -80px 0 0 0;
+  text-align: center;
+  text-transform: uppercase;
+  top: 50%;
+  width: 100%;
+  animation: move linear 2300ms infinite; }
+
+@keyframes move {
+  0% {
+    text-shadow: 4px -4px 0 red, 3px -3px 0 red, 2px -2px 0 red, 1px -1px 0 red, -4px 4px 0 cyan, -3px 3px 0 cyan, -2px 2px 0 cyan, -1px 1px 0 cyan; }
+  20% {
+    text-shadow: -4px -4px 0 cyan, -3px -3px 0 cyan, -2px -2px 0 cyan, -1px -1px 0 cyan, 4px 4px 0 red, 3px 3px 0 red, 2px 2px 0 red, 1px 1px 0 red; }
+  60% {
+    text-shadow: -4px 4px 0 red, -3px 3px 0 red, -2px 2px 0 red, -1px 1px 0 red, 4px -4px 0 cyan, 3px -3px 0 cyan, 2px -2px 0 cyan, 1px -1px 0 cyan; }
+  80% {
+    text-shadow: 4px 4px 0 cyan, 3px 3px 0 cyan, 2px 2px 0 cyan, 1px 1px 0 cyan, -4px -4px 0 red, -3px -3px 0 red, -2px -2px 0 red, -1px -1px 0 red; }
+  100% {
+    text-shadow: 4px -4px 0 red, 3px -3px 0 red, 2px -2px 0 red, 1px -1px 0 red, -4px 4px 0 cyan, -3px 3px 0 cyan, -2px 2px 0 cyan, -1px 1px 0 cyan; } }
+
+.area {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  letter-spacing: 3px;
+  font-weight: 500;
+  text-transform: uppercase;
+  animation: blur 1.4s ease-out infinite;
+  text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff; }
+
+@keyframes blur {
+  from {
+    text-shadow: 0px 0px 10px red, 0px 0px 10px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 50px #fff, 0px 0px 50px #fff, 0px 0px 50px #7B96B8, 0px 0px 150px #7B96B8, 0px 10px 100px #7B96B8, 0px 10px 100px #7B96B8, 0px 10px 100px #7B96B8, 0px 10px 100px #7B96B8, 0px -10px 100px #7B96B8, 0px -10px 100px #7B96B8; } }

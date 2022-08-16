@@ -1,8 +1,10 @@
 
+        
+        
         .titulo{
             @extend .tit;
             text-align: center;
-            @include size (5rem, 8rem, 3rem ); //Mixin
+            @include size (5rem, 8rem, 0.5rem ); //Mixin
         }
 
             .subtitulo{
@@ -15,14 +17,15 @@
             .subtitulo2{
                 font-family: $fuenteppal;
                 color: $colortxthov;
-                text-align: right;
-                @include size (3rem, 0.6rem, 4rem);
-                margin-right: 45rem;
+                text-align: center;
+                @include size (3rem, 0.3rem, 4rem);
+                margin-left: 45rem;
                     }
 
             .subtitulo3{
                 color: $colortxt;
                 text-align: center;
+                font-weight: bolder;
                 @include size (2.5rem, 8rem, 3rem);
                 }
 
@@ -31,6 +34,7 @@
         flex-direction: row;
         justify-content: space-around;
         cursor: pointer;
+        margin-top: $margensuperior;
     }
 
     
@@ -189,3 +193,4 @@ label{
 .you:hover{
     transform:scale(1.2);
 }
+
